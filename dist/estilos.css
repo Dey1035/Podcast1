@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+  width: 1440px;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+header .logo1 {
+  padding: 10px;
+  margin-left: 100px;
+  margin-top: 22px;
+}
+header #btn-menu {
+  display: none;
+}
+header #hamburguesa {
+  display: none;
+}
+header header label {
+  display: none;
+  width: 60px;
+  padding: 10px;
+  color: cyan;
+  font-size: 16px;
+  transition: all 500ms ease;
+}
+header header label:hover {
+  background-color: transparent;
+}
+header .menu ul {
+  margin: 0;
+  padding: 0;
+  margin-left: 800px;
+  display: flex;
+  list-style: none;
+  background-color: transparent;
+}
+header .menu li a {
+  text-decoration: none;
+  color: #060A24 100%;
+  display: block;
+  line-height: 28px;
+  font-size: 16px;
+  width: 87px;
+  height: 28px;
+  padding: 15px 45px;
+}
+
+h1 {
+  padding: 37px;
+  margin-left: 200px;
+  margin-top: 200px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #060A24;
+  font-size: 64px;
+  letter-spacing: 0;
+}
+
+.parrafo1 {
+  margin-left: 200px;
+  width: 628px;
+  height: 48px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  color: #060A24;
+}
+
+#boton1 {
+  margin-left: 200px;
+  width: 226PX;
+  height: 56px;
+  position: relative;
+  border-radius: 3px;
+  display: flex;
+  background-color: #00F3BB;
+  margin-top: 50px;
+}
+
+#boton1 h2 {
+  width: 108px;
+  height: 24px;
+  margin-top: 15px;
+  margin-left: 50px;
+  font-family: "IBM Plex Mono", Medium;
+  color: #060A24;
+  font-size: 15px;
+  letter-spacing: 0;
+}
+
+.episodios {
+  width: 1440px;
+  height: 1042px;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  position: absolute;
+  clip-path: polygon(0 8%, 100% 0%, 100% 81%, 0% 100%);
+}
+
+h2 {
+  margin-left: 200px;
+  width: 209px;
+  height: 62px;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: 48px;
+  margin-top: 100px;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-bottom: 100px;
+}
+
+iframe {
+  width: 584px;
+  height: 232px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.section-2 {
+  width: 1440px;
+  height: 500px;
+  background-color: transparent;
+  margin-top: 1040px;
+  position: relative;
+}
+.section-2 img {
+  width: 457.6;
+  height: 660px;
+  margin-left: 200px;
+  float: left;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 200px;
+}
+.section-2 h2 {
+  width: 399px;
+  height: 62px;
+  margin-left: 720px;
+  color: #060A24;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.section-2 p {
+  width: 464px;
+  height: 204px;
+  margin-left: 720px;
+  color: #060A24;
+  font-size: 16px;
+  font-family: "IBM Plex Mono", monospace;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.section-3 {
+  width: 1440px;
+  height: 728px;
+  background-color: transparent;
+}
+.section-3 h2 {
+  width: 481px;
+  height: 62px;
+  margin-left: 200px;
+  color: #060A24;
+  font-size: 48px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.section-3 img {
+  width: 33%;
+  height: 9, 2%;
+  margin-left: 0%;
+  margin-bottom: 0%;
+}
+
+.container {
+  width: 1440px;
+  height: 500px;
+  background-color: transparent;
+}
+.container h2 {
+  width: 586px;
+  height: 62px;
+  margin-left: 200px;
+  font-size: 48px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #060A24;
+  background-color: transparent;
+  margin-top: 200px;
+}
+.container .p1 {
+  width: 220px;
+  height: 32px;
+  background-color: transparent;
+  flex-direction: column;
+  color: #060A24;
+  font-family: "IBM Plex Sans", sans-semiBold;
+  font-size: 24px;
+  margin-top: 30px;
+}
+.container .p2 {
+  width: 220px;
+  height: 64px;
+  background-color: transparent;
+  flex-direction: column;
+  color: #060A24;
+  font-family: "IBM Plex Sans", sans-semiBold;
+  font-size: 24px;
+  margin-top: 30px;
+}
+.container .img1 {
+  width: 104px;
+  height: 104px;
+  margin-left: 278px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+.container .img2 {
+  width: 104px;
+  height: 104px;
+  margin-left: 200px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+.container .img3 {
+  width: 104px;
+  height: 104px;
+  margin-left: 200px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+.container .img4 {
+  width: 104px;
+  height: 104px;
+  margin-left: 200px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.novedades {
+  width: 1440px;
+  height: 518px;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  clip-path: polygon(0 20%, 100% 1%, 100% 100%, 0% 100%);
+  position: absolute;
+}
+.novedades h2 {
+  width: 692px;
+  height: 62px;
+  margin-left: 374px;
+  color: #FFFFFF;
+  font-size: 48px;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-top: 200PX;
+}
+.novedades #boton2 {
+  margin-left: 547px;
+  width: 345PX;
+  height: 56px;
+  position: relative;
+  border-radius: 3px;
+  display: flex;
+  background-color: #00F3BB;
+  margin-bottom: 1000PX;
+}
+.novedades .btn {
+  width: 227px;
+  height: 24px;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "IBM Plex Mono", Medium;
+  color: #060A24;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 24px;
+}
+
+footer {
+  width: 1440px;
+  height: 50px;
+  flex-flow: row wrap;
+  border: 2px solid transparent;
+  margin-top: 510PX;
+}
+
+h3 {
+  margin-left: 100px;
+  margin-top: 20px;
+  font-family: "IBM Plex Mono";
+  font-size: 16px;
+}
+
+.redes {
+  margin-left: 1108px;
+  display: flex;
+  font-size: 18px;
+  font-family: "FontAwesome5Brands";
+  color: #060A24 100%;
+  align-items: center;
+  list-style-type: none;
+  float: left;
+}
+
+@media (max-width: 768px) {
+  header label {
+    display: block;
+  }
+}
